@@ -1,0 +1,11 @@
+All components were ordered on Amazon:
+
+* ESP32_S2 mini (aftermarket WEMOS came as a pack of 5!)
+* 9V battery holders (Qty 4) 
+* 9V rechargeable 1300mAh USB-C plugin
+* Step down regulator modules adjustable 4.5-24 volt. (9v to 3.3v is setup for the project)
+* 16 bit 16-LED WS2812B RGB NEOPIXEL Ring. 5 VDC. (Qty 2)
+* 144 LED WS2812B RGB strip, 3.2 feet. (Cut to 24 LEDS) 
+* 20 AWG solid coated wire, various colors.   
+* 5mm x 2mm magnets for the housing covers. 
+

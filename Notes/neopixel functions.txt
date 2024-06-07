@@ -1,0 +1,40 @@
+# def set_brightness(color):
+#     r, g, b = color
+#     r = int(r * brightness)
+#     g = int(g * brightness)
+#     b = int(b * brightness)
+#     return (r,g,b)
+
+# def loop():
+#     # Display red
+#     color = (255, 0, 0)  # Red color
+#     color = set_brightness(color)
+#     neoRing.fill(color)
+#     neoRing.write()
+#     time.sleep(1)
+
+#     # Display green
+#     color = (0, 255, 0)  # Green color
+#     color = set_brightness(color)
+#     neoRing.fill(color)
+#     neoRing.write()
+#     time.sleep(1)
+
+#     # Display blue
+#     color = (0, 0, 255)  # Blue color
+#     color = set_brightness(color)
+#     neoRing.fill(color)
+#     neoRing.write()
+#     time.sleep(1)
+
+# def fade_loop():
+#     """ this function performs a tail chasing fade """
+#     global position
+   
+#     for i in range(num_leds):
+#         bright_fade = int(i * (255 / num_leds)) // 2
+#         neoRing[(i + position) % num_leds] = (bright_fade, 0, 0)
+#     neoRing.write()
+#     position = (position + 1) % num_leds
+#     time.sleep_ms(100)
+

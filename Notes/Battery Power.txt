@@ -1,0 +1,5 @@
+When uploading file into microcontroller, must save files as "main.py", or else the controller will not recognize the file type after bootloader file is read. 
+
+on ESP32-S2 mini, 5 volt power to VBUS with stablized voltage regulator
+
+minimum 500ma to power chip. 
